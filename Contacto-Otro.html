@@ -9,7 +9,7 @@
     <script src="dist/Bootstrap/Bootstrap/js/bootstrap.bundle.js"></script>
     <meta name="author" content="Leonel Martinez, g.leonel.m17@gmail.com">
     <meta name="revised" content="4 de Julio de 2022, 20:10 pm">
-    <title>Contaco por E-mail</title>
+    <title>Portfolio</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -48,18 +48,21 @@
           </div>
         </div>
     </nav>
-    <div class="row">
-      <div class="col-md-5"></div>
-      <div class="col-md-2">
-        <div class="card">
-          <h5 class="card-header">Contacto</h5>
-          <div class="card-body">
-            <h5 class="card-title">Dirección de correo electronico (E-mail):</h5>
-            <p class="card-text">g.leonel.m17@gmail.com</p>
-            <a href="" class="btn btn-primary">Copiar</a>
-          </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Dirección de correo electronico:</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Consulta:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-dark">Enviar</button>
+            </div>
         </div>
-      </div>
     </div>
 </body>
 </html>
